@@ -10,7 +10,7 @@ import AppHeader from 'shared/components/AppHeader.vue';
   <div>
 
     <el-button>
-      buttom
+а      button
     </el-button>
 
     <AppHeader/>

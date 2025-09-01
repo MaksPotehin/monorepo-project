@@ -16,7 +16,7 @@
   "devDependencies": {
     "nuxt": "^3.0.0",
     "element-plus": "^2.3.0",
-    "@element-plus/nuxt": "^0.3.0",
+    "@element-plus/nuxt": "^1.1.4",
     "vite": "^4.0.0",
     "eslint": "^8.0.0",
     "prettier": "^3.0.0"
