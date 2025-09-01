@@ -1,0 +1,27 @@
+{
+  "name": "monorepo-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "apps/*",
+    "shared"
+  ],
+  "scripts": {
+    "dev": "pnpm --filter admin dev",
+    "dev:marketplace1": "pnpm --filter marketplace-1 dev",
+    "dev:marketplace2": "pnpm --filter marketplace-2 dev",
+    "build": "pnpm -r run build"
+  },
+  "devDependencies": {
+    "nuxt": "^3.0.0",
+    "element-plus": "^2.3.0",
+    "@element-plus/nuxt": "^0.3.0",
+    "vite": "^4.0.0",
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
